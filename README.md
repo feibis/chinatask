@@ -1,8 +1,6 @@
 # Introduction
 
-An advanced Next 15 starter kit designed to accelerate the development of modern web-based applications. It provides a robust foundation for creating efficient, scalable and high-performance solutions.
-
-![hero](public/og.jpg)
+Next 15 starter kit designed to accelerate the development of modern web-based applications. It provides a robust foundation for creating efficient, scalable and high-performance solutions.
 
 # Quickstart
 
@@ -15,7 +13,7 @@ Get started in about 30 minutes by following these steps.
 2. **Switch to the project's root directory**
 
 ```bash
-cd achromatic-pro
+cd basic-next-prisma-authjs
 ```
 
 2. **Install the node dependencies**
