@@ -122,6 +122,7 @@
     "zod": "3.24.1"
   },
   "devDependencies": {
+    "@aws-sdk/client-s3": "^3.0.0",
     "@content-collections/cli": "0.1.6",
     "@content-collections/core": "0.8.0",
     "@content-collections/mdx": "0.2.0",
@@ -169,13 +170,17 @@
   "overrides": {
     "react": "19.0.0",
     "react-dom": "19.0.0",
-    "react-is": "19.0.0"
+    "react-is": "19.0.0",
+    "archiver": "7.0.1",
+    "unzipper": "0.12.3"
   },
   "pnpm": {
     "overrides": {
       "react": "19.0.0",
       "react-dom": "19.0.0",
-      "react-is": "19.0.0"
+      "react-is": "19.0.0",
+      "archiver": "7.0.1",
+      "unzipper": "0.12.3"
     }
   }
 }
