@@ -58,7 +58,7 @@ export default async function DashboardLayout({
         {/* Set max-width so full-width tables can overflow horizontally correctly */}
         <SidebarInset
           id="skip"
-          className="size-full lg:peer-data-[state=collapsed]:max-w-[calc(100vw-var(--sidebar-width-icon))] lg:peer-data-[state=expanded]:max-w-[calc(100vw-var(--sidebar-width))]"
+          className="size-full lg:[transition:max-width_0.2s_linear] lg:peer-data-[state=collapsed]:max-w-[calc(100vw-var(--sidebar-width-icon))] lg:peer-data-[state=expanded]:max-w-[calc(100vw-var(--sidebar-width))]"
         >
           {children}
         </SidebarInset>
