@@ -5,7 +5,10 @@ import { handlers } from '@/lib/auth';
 const reqWithOrigin = (req: NextRequest): NextRequest => {
   const { href, origin } = req.nextUrl;
   return new NextRequest(
-    href.replace(origin, new URL(process.env.NEXT_PUBLIC_BASE_URL as string).origin),
+    href.replace(
+      origin,
+      new URL(process.env.NEXT_PUBLIC_BASE_URL as string).origin
+    ),
     req
   );
 };
