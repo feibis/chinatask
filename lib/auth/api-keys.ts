@@ -1,5 +1,5 @@
 import { createHash, randomBytes } from 'crypto';
-import { isBefore } from 'date-fns';
+import { isAfter } from 'date-fns';
 
 import { prisma } from '@/lib/db/prisma';
 import { isString } from '@/lib/validation/is-string';
@@ -59,7 +59,7 @@ export async function verifyApiKey(token: string) {
     } as ErrorResult;
   }
   const now = new Date();
-  if (!!apiKey.expiresAt && isBefore(now, apiKey.expiresAt)) {
+  if (!!apiKey.expiresAt && isAfter(now, apiKey.expiresAt)) {
     return {
       success: false,
       errorMessage: 'API key not found or expired'
