@@ -1,4 +1,7 @@
+'use client';
+
 import * as React from 'react';
+import { toast } from 'sonner';
 
 import { ConnectedAccountList } from '@/components/dashboard/settings/account/security/connected-account-list';
 import { Card, CardContent, type CardProps } from '@/components/ui/card';
@@ -9,13 +12,20 @@ import type { ConnectedAccountDto } from '@/types/dtos/connected-account-dto';
 
 export type ConnectedAccountsCardProps = CardProps & {
   connectedAccounts: ConnectedAccountDto[];
+  errorMessage: string;
 };
 
 export function ConnectedAccountsCard({
   connectedAccounts,
+  errorMessage,
   className,
   ...other
 }: ConnectedAccountsCardProps): React.JSX.Element {
+  React.useEffect(() => {
+    if (errorMessage) {
+      toast.error(errorMessage);
+    }
+  }, [errorMessage]);
   return (
     <Card
       className={cn('flex h-full flex-col', className)}

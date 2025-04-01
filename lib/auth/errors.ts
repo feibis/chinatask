@@ -10,6 +10,9 @@ export enum AuthErrorCode {
   RateLimitExceeded = 'rate_limit_exceeded',
   IllegalOAuthProvider = 'illegal_oauth_provider',
   InternalServerError = 'internal_server_error',
+  MissingOAuthEmail = 'missing_oauth_email',
+  AlreadyLinked = 'already_linked',
+  RequiresExplicitLinking = 'requires_explicit_linking',
   UnknownError = 'unknown_error'
 }
 
@@ -26,5 +29,9 @@ export const authErrorMessages: Record<AuthErrorCode, string> = {
   [AuthErrorCode.IllegalOAuthProvider]: 'Illegal OAuth provider.',
   [AuthErrorCode.InternalServerError]:
     'Something went wrong. Please try again later.',
+  [AuthErrorCode.MissingOAuthEmail]: 'Missing OAuth email.',
+  [AuthErrorCode.AlreadyLinked]: 'OAuth account has been already linked.',
+  [AuthErrorCode.RequiresExplicitLinking]:
+    'Please sign in first to link this account',
   [AuthErrorCode.UnknownError]: 'Unknown error.'
 };
