@@ -1,4 +1,4 @@
-# Introduction
+# Introduction basic
 
 Next 15 starter kit designed to accelerate the development of modern web-based applications. It provides a robust foundation for creating efficient, scalable and high-performance solutions.
 
