@@ -7,21 +7,21 @@ import { GridSection } from '@/components/marketing/fragments/grid-section';
 const DATA = [
   {
     icon: <UserPlusIcon className="size-5 shrink-0" />,
-    title: 'Problem 1',
+    title: 'No Local Presence in China',
     description:
-      'Describe a significant problem your ideal customer profile has. Explain how this problem impacts their goals or daily operations.'
+      'Managing China projects remotely is tough without local contacts. You struggle to verify suppliers or pick up documents, delaying timelines and risking costly errors.'
   },
   {
     icon: <BarChartIcon className="size-5 shrink-0" />,
-    title: 'Problem 2',
+    title: 'Logistics Delays and Uncertainty',
     description:
-      'Describe a significant problem your ideal customer profile has. Explain how this problem impacts their goals or daily operations.'
+      'Uncertain shipment statuses, like unchecked container loading, disrupt your supply chain. Without on-ground checks, delays pile up, frustrating customers and hurting profits.'
   },
   {
     icon: <WorkflowIcon className="size-5 shrink-0" />,
-    title: 'Problem 3',
+    title: 'Coordinating Across Time Zones',
     description:
-      'Describe a significant problem your ideal customer profile has. Explain how this problem impacts their goals or daily operations.'
+      'Making urgent supplier calls or arranging freight handlers across time zones is a headache. These small tasks stall your operations, eating time you can’t spare.'
   }
 ];
 

@@ -14,34 +14,31 @@ import { Routes } from '@/constants/routes';
 const DATA = [
   {
     question: `What does ${AppInfo.APP_NAME} do?`,
-    answer: `This is a demo application built with Achromatic. It will save you time and effort building your next SaaS. Here you would write something like "${AppInfo.APP_NAME} helps you manage customer relationships, organize sales activities and improve service delivery to make your business more efficient and successful."`
+    answer: `ChinaTasks is your on-ground ally for tackling small but critical tasks in China, like checking container loading at ports, making calls to confirm supplier details, or picking up urgent documents. Unlike sourcing agencies, we focus on the last-mile errands that keep your projects—business or personal—moving smoothly, no matter where you are.`
   },
   {
-    question: 'How will this benefit my business?',
-    answer: `By centralizing your customer data and automating tasks, ${AppInfo.APP_NAME} makes it easier to track leads, manage your sales pipeline and collaborate with your team, saving you time and boosting your productivity.`
+    question: 'How will ChinaTasks benefit my business?',
+    answer: `By handling time-consuming tasks like supplier calls or shipment inspections, ChinaTasks saves you hours and stress. Our local expertise ensures reliable results, from coordinating with freight handlers to verifying supplier credentials, so you can focus on growing your business with confidence.`
   },
   {
-    question: 'Is my data safe?',
-    answer:
-      'Your data security is our top priority. We use advanced encryption and follow industry-standard security measures to keep your information protected and compliant.'
+    question: 'Can I trust ChinaTasks with sensitive tasks?',
+    answer: `Absolutely. We prioritize reliability and transparency, acting as your trusted eyes and ears in China. Whether it’s verifying a supplier or managing a document pickup, our team delivers clear, professional results you can count on.`
   },
   {
-    question: 'What kind of integrations are available?',
-    answer: `${AppInfo.APP_NAME} supports integration with various business tools, including CRMs, email marketing software and collaboration platforms. Connect with Salesforce, HubSpot and more to create a seamless workflow.`
+    question: 'What kind of tasks can ChinaTasks handle?',
+    answer: `From routine errands like making supplier calls to urgent fixes like checking container loading or connecting you with local pros (e.g., interpreters, couriers), ChinaTasks adapts to your needs. No task is too small to keep your China project on track.`
   },
   {
-    question: 'How easy is it to onboard my team?',
-    answer:
-      'The platform is designed for easy onboarding, with intuitive interfaces and step-by-step guides to help your team get up and running quickly.'
+    question: 'How quickly can ChinaTasks get started?',
+    answer: `We’re built for speed. Share your task via our Substack chat or email, and we’ll jump in—often within hours. Our local team ensures fast turnarounds, whether it’s a shipment check or a last-minute supplier call.`
   },
   {
-    question: 'What types of businesses can use this?',
-    answer: `${AppInfo.APP_NAME} is suitable for businesses of all sizes and industries, from startups to large enterprises, looking to streamline their customer relationship management.`
+    question: 'Who can use ChinaTasks’ services?',
+    answer: `ChinaTasks serves everyone from startups scaling a Douyin shop to seasoned pros managing supply chains, and even individuals with personal projects in China. If you’re working remotely and need a local fix, we’ve got you covered.`
   },
   {
-    question: 'Can I customize this to fit my business needs?',
-    answer:
-      'Absolutely. You can customize workflows, fields and templates to suit the unique needs of your business.'
+    question: 'Can ChinaTasks customize solutions for my needs?',
+    answer: `Yes. Whether you need a one-off document pickup or ongoing support for supplier coordination, we tailor our services to fit your unique challenges, making China feel like an extension of your desk.`
   }
 ];
 
