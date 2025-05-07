@@ -26,7 +26,7 @@ function HeroPill(): React.JSX.Element {
           className="group h-8 rounded-full px-3 text-xs font-medium shadow-sm duration-200 hover:bg-accent/50 sm:text-sm"
         >
           <div className="w-fit py-0.5 text-center text-xs text-blue-500 sm:text-sm">
-            Free consult!🎉
+            Free consult!
           </div>
           <Separator
             orientation="vertical"
