@@ -1,29 +1,14 @@
 'use client';
 
 import * as React from 'react';
-import Image from 'next/image';
 import Link from 'next/link';
-import { CubeIcon } from '@radix-ui/react-icons';
 import { motion } from 'framer-motion';
-import {
-  ChevronRightIcon,
-  CircuitBoardIcon,
-  FileBarChartIcon,
-  LayoutIcon,
-  PlayIcon
-} from 'lucide-react';
+import { ChevronRightIcon } from 'lucide-react';
 
 import { GridSection } from '@/components/marketing/fragments/grid-section';
 import { Badge } from '@/components/ui/badge';
 import { buttonVariants } from '@/components/ui/button';
-import { ScrollArea, ScrollBar } from '@/components/ui/scroll-area';
 import { Separator } from '@/components/ui/separator';
-import {
-  UnderlinedTabs,
-  UnderlinedTabsContent,
-  UnderlinedTabsList,
-  UnderlinedTabsTrigger
-} from '@/components/ui/tabs';
 import { Routes } from '@/constants/routes';
 import { cn } from '@/lib/utils';
 
@@ -63,7 +48,7 @@ function HeroTitle(): React.JSX.Element {
       transition={{ delay: 0.2, duration: 0.4 }}
     >
       <h1 className="mt-6 text-center text-[48px] font-bold leading-[54px] tracking-[-1.2px] [font-kerning:none] sm:text-[56px] md:text-[64px] lg:text-[76px] lg:leading-[74px] lg:tracking-[-2px]">
-        Fast third-party 
+        Fast third-party
         <br /> China tasks assistant
       </h1>
     </motion.div>
@@ -78,7 +63,8 @@ function HeroDescription(): React.JSX.Element {
       transition={{ delay: 0.4, duration: 0.4 }}
       className="mx-auto mt-3 max-w-[560px] text-balance text-center text-lg leading-[26px] text-muted-foreground sm:text-xl lg:mt-6"
     >
-      ChinaTasks simplifies the small stuff—suppliers, payments, logistics, pros. Your China fixer, done right.
+      ChinaTasks simplifies the small stuff—suppliers, payments, logistics,
+      pros. Your China fixer, done right.
     </motion.p>
   );
 }
@@ -94,9 +80,7 @@ function HeroButtons(): React.JSX.Element {
       <Link
         href={Routes.SignUp}
         className={cn(
-          buttonVariants({
-            variant: 'default'
-          }),
+          buttonVariants({ variant: 'default' }),
           'h-10 rounded-xl sm:h-9'
         )}
       >
@@ -105,9 +89,7 @@ function HeroButtons(): React.JSX.Element {
       <Link
         href={Routes.Contact}
         className={cn(
-          buttonVariants({
-            variant: 'outline'
-          }),
+          buttonVariants({ variant: 'outline' }),
           'h-10 rounded-xl sm:h-9'
         )}
       >
@@ -161,36 +143,6 @@ function MainDashedGridLines(): React.JSX.Element {
   );
 }
 
-function SupportiveDashedGridLines(): React.JSX.Element {
-  return (
-    <>
-      <svg className="absolute left-[calc(50%-50vw)] top-[59px] z-10 hidden h-px w-screen [mask-image:linear-gradient(to_right,#0000,#000_100px,#000_calc(100%-100px),#0000)] lg:block">
-        <line
-          x1="0"
-          y1="0.5"
-          x2="100%"
-          y2="0.5"
-          strokeLinecap="round"
-          strokeDasharray="5 5"
-          stroke="hsl(var(--border))"
-        />
-      </svg>
-      <svg className="absolute left-[calc(50%-50vw)] top-0 z-10 hidden h-px w-screen [mask-image:linear-gradient(to_right,#0000,#000_100px,#000_calc(100%-100px),#0000)] lg:block">
-        <line
-          x1="0"
-          y1="0.5"
-          x2="100%"
-          y2="0.5"
-          strokeLinecap="round"
-          strokeDasharray="5 5"
-          stroke="hsl(var(--border))"
-        />
-      </svg>
-    </>
-  );
-}
-
-
 export function Hero(): React.JSX.Element {
   return (
     <GridSection className="overflow-x-hidden">
@@ -202,7 +154,6 @@ export function Hero(): React.JSX.Element {
         </div>
         <HeroDescription />
         <HeroButtons />
-        <HeroIllustration />
       </div>
     </GridSection>
   );
