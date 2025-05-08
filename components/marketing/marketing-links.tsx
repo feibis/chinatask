@@ -1,5 +1,14 @@
 import * as React from 'react';
-import { BookIcon, CuboidIcon } from 'lucide-react';
+import { CubeIcon, PaperPlaneIcon } from '@radix-ui/react-icons';
+import {
+  BookIcon,
+  BookOpenIcon,
+  CircuitBoardIcon,
+  CuboidIcon,
+  FileBarChartIcon,
+  LayoutIcon,
+  PlayIcon
+} from 'lucide-react';
 
 import {
   FacebookIcon,
@@ -13,8 +22,22 @@ import { Routes } from '@/constants/routes';
 export const MENU_LINKS = [
   {
     title: 'Services',
-    href: Routes.Careers,
-    external: false
+    items: [
+      {
+        title: 'Feature 1',
+        description: 'Short description here',
+        icon: <CubeIcon className="size-5 shrink-0" />,
+        href: '#',
+        external: false
+      },
+      {
+        title: 'Feature 5',
+        description: 'Short description here',
+        icon: <FileBarChartIcon className="size-5 shrink-0" />,
+        href: '#',
+        external: false
+      }
+    ]
   },
   {
     title: 'Pricing',
@@ -25,17 +48,29 @@ export const MENU_LINKS = [
     title: 'Blog',
     href: Routes.Blog,
     external: false
+  },
+  {
+    title: 'Our Platform',
+    href: Routes.Story,
+    external: false
   }
 ];
 
 export const FOOTER_LINKS = [
   {
+    title: 'Resources',
+    links: [
+      { name: 'Contact', href: Routes.Contact, external: false },
+      { name: 'Roadmap', href: Routes.Roadmap, external: true },
+      { name: 'Docs', href: Routes.Docs, external: false }
+    ]
+  },
+  {
     title: 'About',
     links: [
       { name: 'Story', href: Routes.Story, external: false },
       { name: 'Blog', href: Routes.Blog, external: false },
-      { name: 'Careers', href: Routes.Careers, external: false },
-      { name: 'Contact', href: Routes.Contact, external: false }
+      { name: 'Careers', href: Routes.Careers, external: false }
     ]
   },
   {
