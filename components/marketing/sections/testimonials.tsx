@@ -22,7 +22,9 @@ const DATA = [
         <strong>
           Our team efficiency has improved by 75% since implementation.
         </strong>{' '}
-        The automated workflows are a game-changer for tech companies.
+        The automated workflows are a game-changer for tech companies. They also
+        helped us find reliable suppliers for our components, guiding us to the
+        best factories in Shenzhen.
       </p>
     )
   },
@@ -35,7 +37,8 @@ const DATA = [
         {AppInfo.APP_NAME}'s customer prediction model has drastically improved
         our targeting strategy.{' '}
         <strong>We've seen a 50% increase in conversion rates!</strong> Their
-        marketing automation features are unmatched.
+        marketing automation features are unmatched. Their guidance on where to
+        buy promotional materials in Shanghai was invaluable.
       </p>
     )
   },
@@ -48,7 +51,9 @@ const DATA = [
         As a startup, we needed a system that could scale with us.{' '}
         {AppInfo.APP_NAME} delivers perfectly.{' '}
         <strong>Our sales pipeline visibility has improved tenfold.</strong>{' '}
-        Essential tool for any growing business.
+        Essential tool for any growing business. They even helped us source
+        unique components for our prototypes, pointing us to specialized
+        suppliers in Beijing.
       </p>
     )
   },
@@ -63,7 +68,8 @@ const DATA = [
         <strong>
           Customer communication is now seamless across all regions.
         </strong>{' '}
-        Perfect for international teams.
+        Perfect for international teams. Their insights on the best places to
+        buy in Guangzhou made our supplier negotiations much smoother.
       </p>
     )
   },
@@ -79,7 +85,8 @@ const DATA = [
           Our customer retention has increased by 40% using their predictive
           analytics.
         </strong>{' '}
-        Transformative for financial services.
+        Transformative for financial services. They also guided us to the right
+        wholesale markets in Yiwu for our product line.
       </p>
     )
   },
@@ -92,7 +99,8 @@ const DATA = [
         {AppInfo.APP_NAME}'s integration with our existing tools has streamlined
         our entire operation.{' '}
         <strong>Customer service response times have been cut in half.</strong>{' '}
-        The automation features are exceptional.
+        The automation features are exceptional. Their recommendations on where
+        to source packaging materials in Hangzhou cut our costs significantly.
       </p>
     )
   },
@@ -107,7 +115,9 @@ const DATA = [
         <strong>
           Perfect for managing eco-conscious customer relationships.
         </strong>{' '}
-        Leading the way in sustainable business practices.
+        Leading the way in sustainable business practices. Their tips on where
+        to source eco-friendly packaging in Ningbo were a huge win for our
+        sustainability goals.
       </p>
     )
   },
@@ -122,7 +132,8 @@ const DATA = [
         <strong>
           Our targeted campaigns now see 85% higher engagement rates.
         </strong>{' '}
-        Revolutionizing how we connect with customers.
+        Revolutionizing how we connect with customers. They also helped us find
+        the best suppliers for our marketing materials in Shenzhen.
       </p>
     )
   },
@@ -137,7 +148,8 @@ const DATA = [
         <strong>
           Secure patient relationship management has never been easier.
         </strong>{' '}
-        A milestone in healthcare CRM solutions.
+        A milestone in healthcare CRM solutions. Their guidance on sourcing
+        medical supplies in Tianjin was incredibly helpful.
       </p>
     )
   },
@@ -152,7 +164,8 @@ const DATA = [
         <strong>
           Perfect for managing student and institution relationships.
         </strong>{' '}
-        Transforming educational administration.
+        Transforming educational administration. They also pointed us to the
+        best suppliers for educational materials in Shanghai.
       </p>
     )
   },
@@ -165,7 +178,8 @@ const DATA = [
         {AppInfo.APP_NAME}'s enterprise-grade security features give us complete
         peace of mind.{' '}
         <strong>The most secure CRM solution we've ever used.</strong> Setting
-        new standards in data protection.
+        new standards in data protection. Their insights on where to buy tech
+        components in Shenzhen were a game-changer.
       </p>
     )
   },
@@ -178,7 +192,8 @@ const DATA = [
         {AppInfo.APP_NAME}'s project management integration has streamlined our
         creative workflow.{' '}
         <strong>Client communication has never been more efficient.</strong>{' '}
-        Perfect for creative agencies.
+        Perfect for creative agencies. They also helped us find the best
+        suppliers for design materials in Beijing.
       </p>
     )
   },
@@ -191,7 +206,8 @@ const DATA = [
         {AppInfo.APP_NAME}'s startup-friendly pricing and scalability made it an
         easy choice.{' '}
         <strong>The perfect CRM solution that grows with your business.</strong>{' '}
-        Essential for modern startups.
+        Essential for modern startups. Their guidance on sourcing startup
+        essentials in Hangzhou was incredibly valuable.
       </p>
     )
   }
