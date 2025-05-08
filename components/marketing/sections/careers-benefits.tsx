@@ -9,21 +9,15 @@ import { AppInfo } from '@/constants/app-info';
 const DATA = [
   {
     icon: <LightningBoltIcon className="size-5 shrink-0" />,
-    title: 'Innovation at its core',
-    description:
-      'We are committed to pushing boundaries and fostering a culture of creativity.'
+    title: 'Innovation at its core'
   },
   {
     icon: <Users2Icon className="size-5 shrink-0" />,
-    title: 'Inclusive environment',
-    description:
-      'Our diverse and collaborative team welcomes individuals from all backgrounds.'
+    title: 'Inclusive environment'
   },
   {
     icon: <BriefcaseBusinessIcon className="size-5 shrink-0" />,
-    title: 'Opportunities for growth',
-    description:
-      'We support continuous learning and career development through mentorship and resources.'
+    title: 'Opportunities for growth'
   }
 ];
 
@@ -48,7 +42,6 @@ export function CareersBenefits(): React.JSX.Element {
                 {benefit.icon}
               </div>
               <h3 className="mb-3 text-lg font-semibold">{benefit.title}</h3>
-              <p className="text-muted-foreground">{benefit.description}</p>
             </div>
           ))}
         </div>
