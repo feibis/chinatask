@@ -1,5 +1,6 @@
 import * as React from 'react';
 
+import { BlogPosts } from '@/components/marketing/sections/blog-posts'; // ✅ Import BlogPosts
 import { CTA } from '@/components/marketing/sections/cta';
 import { FAQ } from '@/components/marketing/sections/faq';
 import { Hero } from '@/components/marketing/sections/hero';
@@ -13,6 +14,7 @@ export default function IndexPage(): React.JSX.Element {
       <Solution />
       <Testimonials />
       <FAQ />
+      <BlogPosts /> {/* ✅ Add BlogPosts section here */}
       <CTA />
     </>
   );
