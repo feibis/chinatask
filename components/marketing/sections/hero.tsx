@@ -26,13 +26,13 @@ function HeroPill(): React.JSX.Element {
           className="group h-8 rounded-full px-3 text-xs font-medium shadow-sm duration-200 hover:bg-accent/50 sm:text-sm"
         >
           <div className="w-fit py-0.5 text-center text-xs text-blue-500 sm:text-sm">
-            New!
+            Free consult!
           </div>
           <Separator
             orientation="vertical"
             className="mx-2"
           />
-          Get $30 off
+          Whatsapp +48 797264600
           <ChevronRightIcon className="ml-1.5 size-3 shrink-0 text-foreground transition-transform group-hover:translate-x-0.5" />
         </Badge>
       </Link>
@@ -47,7 +47,7 @@ function HeroTitle(): React.JSX.Element {
       animate={{ filter: 'blur(0px)', opacity: 1, y: 0 }}
       transition={{ delay: 0.2, duration: 0.4 }}
     >
-      <h1 className="mt-4 pb-16 text-center text-[28px] font-bold leading-[36px] tracking-[-0.8px] [font-kerning:none] sm:text-[36px] sm:leading-[42px] md:text-[44px] lg:text-[56px] lg:leading-[60px] lg:tracking-[-1.5px]">
+      <h1 className="mt-6 text-center text-[42px] font-bold leading-[50px] tracking-[-1px] [font-kerning:none] sm:text-[52px] md:text-[60px] lg:text-[72px] lg:leading-[70px] lg:tracking-[-1.5px]">
         Fast third-party
         <br /> China tasks assistant
       </h1>
@@ -147,7 +147,7 @@ export function Hero(): React.JSX.Element {
   return (
     <GridSection className="overflow-x-hidden">
       <MainDashedGridLines />
-      <div className="mx-auto mt-12 flex flex-col gap-6 px-2 sm:mt-16 sm:px-1 md:mt-20 lg:mt-24">
+      <div className="mx-auto mt-12 flex flex-col gap-6 px-2 pb-28 sm:mt-16 sm:px-1 md:mt-20 lg:mt-24">
         <div className="gap-2">
           <HeroPill />
           <HeroTitle />
