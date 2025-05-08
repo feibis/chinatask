@@ -47,7 +47,7 @@ function HeroTitle(): React.JSX.Element {
       animate={{ filter: 'blur(0px)', opacity: 1, y: 0 }}
       transition={{ delay: 0.2, duration: 0.4 }}
     >
-      <h1 className="mt-6 text-center text-[42px] font-bold leading-[50px] tracking-[-1px] [font-kerning:none] sm:text-[52px] md:text-[60px] lg:text-[72px] lg:leading-[70px] lg:tracking-[-1.5px]">
+      <h1 className="mt-6 text-center text-[36px] font-bold leading-[42px] tracking-[-1.2px] [font-kerning:none] sm:text-[40px] md:text-[48px] lg:text-[56px] lg:leading-[64px] lg:tracking-[-2px]">
         Fast third-party
         <br /> China tasks assistant
       </h1>
@@ -147,7 +147,7 @@ export function Hero(): React.JSX.Element {
   return (
     <GridSection className="overflow-x-hidden">
       <MainDashedGridLines />
-      <div className="mx-auto mt-12 flex flex-col gap-6 px-2 pb-28 sm:mt-16 sm:px-1 md:mt-20 lg:mt-24">
+      <div className="mx-auto mt-8 flex flex-col gap-6 px-2 pb-16 sm:mt-10 sm:px-1 md:mt-12 lg:mt-16">
         <div className="gap-2">
           <HeroPill />
           <HeroTitle />
