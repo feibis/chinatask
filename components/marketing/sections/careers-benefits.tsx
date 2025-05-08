@@ -2,7 +2,6 @@ import * as React from 'react';
 
 import { GridSection } from '@/components/marketing/fragments/grid-section';
 import { SiteHeading } from '@/components/marketing/fragments/site-heading';
-import { AppInfo } from '@/constants/app-info';
 
 export function CareersBenefits(): React.JSX.Element {
   return (
