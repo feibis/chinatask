@@ -92,9 +92,6 @@ export function CareersPositions(): React.JSX.Element {
   return (
     <GridSection>
       <div className="space-y-12 py-20">
-        <h2 className="text-center text-3xl font-semibold md:text-4xl">
-          One off tasks
-        </h2>
         <div className="container mx-auto grid max-w-4xl grid-cols-1 gap-2 divide-y">
           {DATA.map((position, index) => (
             <div
