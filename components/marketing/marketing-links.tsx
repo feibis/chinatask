@@ -1,14 +1,6 @@
 import * as React from 'react';
-import { CubeIcon, PaperPlaneIcon } from '@radix-ui/react-icons';
-import {
-  BookIcon,
-  BookOpenIcon,
-  CircuitBoardIcon,
-  CuboidIcon,
-  FileBarChartIcon,
-  LayoutIcon,
-  PlayIcon
-} from 'lucide-react';
+import { CubeIcon } from '@radix-ui/react-icons';
+import { BookIcon, CuboidIcon, FileBarChartIcon } from 'lucide-react';
 
 import {
   FacebookIcon,
