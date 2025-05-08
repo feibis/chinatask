@@ -14,17 +14,16 @@ export function PricingPlans(): React.JSX.Element {
       <div className="container space-y-20 py-20">
         <SiteHeading
           badge="Pricing"
-          title="Flexible, Task-Based Pricing"
-          description="No per-seat fees. Pay only for the tasks or inspections you need, from quick errands to deep factory audits, tailored for your China operations."
+          title="Monthly Sourcing Subscriptions"
+          description="Affordable, tailored support to source products, verify suppliers, and negotiate low MOQs in China, with premium services like trade show and office visits."
         />
 
         <div className="max-w-7xl">
           <div className="flex justify-center">
-            <div className="grid w-full max-w-6xl gap-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
-              <QuickTasksCard />
-              <StandardInspectionCard />
-              <RecurringInspectionPlanCard />
-              <CustomRecurringPlanCard />
+            <div className="grid w-full max-w-6xl gap-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+              <StarterPlanCard />
+              <ProPlanCard />
+              <EnterprisePlanCard />
             </div>
           </div>
         </div>
@@ -33,39 +32,39 @@ export function PricingPlans(): React.JSX.Element {
   );
 }
 
-function QuickTasksCard(): React.JSX.Element {
+function StarterPlanCard(): React.JSX.Element {
   return (
     <div className="flex h-full flex-col rounded-lg border p-8">
       <div className="relative z-10 grow">
         <div className="mb-8">
-          <h2 className="mb-2 text-xl font-medium">Quick Tasks</h2>
+          <h2 className="mb-2 text-xl font-medium">Starter Plan</h2>
           <div className="mb-2 flex items-baseline">
-            <span className="text-4xl font-bold">From $75</span>
-            <span className="ml-2 text-muted-foreground">/task</span>
+            <span className="text-4xl font-bold">$49</span>
+            <span className="ml-2 text-muted-foreground">/month</span>
           </div>
           <p className="text-sm text-muted-foreground">
-            Perfect for one-off needs like sourcing samples, dropshipping
-            coordination, or supplier calls.
+            Quick tasks (1-3 hours each) to verify suppliers or source products
+            like plumbing fittings or women’s clothing.
           </p>
         </div>
         <ul className="mb-8 space-y-4">
           <li className="flex items-start">
             <CheckIcon className="mt-1 size-4 text-muted-foreground" />
             <div className="ml-3 text-sm">
-              Simple Tasks – $75 (e.g., document pickup, supplier calls)
+              4 small tasks/month (e.g., verify supplier for sanitary fittings,
+              document pickup)
             </div>
           </li>
           <li className="flex items-start">
             <CheckIcon className="mt-1 size-4 text-muted-foreground" />
             <div className="ml-3 text-sm">
-              Moderate Tasks – $200 (e.g., small component sourcing,
-              dropshipping setup)
+              City guidance (e.g., Ningbo for plumbing, Guangzhou for denim)
             </div>
           </li>
           <li className="flex items-start">
             <CheckIcon className="mt-1 size-4 text-muted-foreground" />
             <div className="ml-3 text-sm">
-              Rush option (+50% for urgent tasks)
+              Basic low MOQ negotiation (e.g., for small clothing batches)
             </div>
           </li>
         </ul>
@@ -77,14 +76,14 @@ function QuickTasksCard(): React.JSX.Element {
           'group mt-auto h-11 w-full rounded-xl text-sm font-medium shadow-none transition-colors'
         )}
       >
-        Request a Task
+        Start Subscription
         <ChevronRight className="ml-1 size-4 group-hover:translate-x-0.5" />
       </Link>
     </div>
   );
 }
 
-function StandardInspectionCard(): React.JSX.Element {
+function ProPlanCard(): React.JSX.Element {
   return (
     <div className="relative flex h-full flex-col rounded-lg border border-primary p-8">
       <div className="absolute -top-3 left-1/2 -translate-x-1/2">
@@ -94,33 +93,35 @@ function StandardInspectionCard(): React.JSX.Element {
       </div>
       <div className="relative z-10 grow border-b">
         <div className="mb-8">
-          <h2 className="mb-2 text-xl font-medium">Standard Inspection</h2>
+          <h2 className="mb-2 text-xl font-medium">Pro Plan</h2>
           <div className="mb-2 flex items-baseline">
-            <span className="text-4xl font-bold">$300</span>
-            <span className="ml-2 text-muted-foreground">/inspection</span>
+            <span className="text-4xl font-bold">$199</span>
+            <span className="ml-2 text-muted-foreground">/month</span>
           </div>
           <p className="text-sm text-muted-foreground">
-            Thorough factory checks, from capacity to compliance, plus guidance
-            to the right city.
+            Medium tasks (1-2 days each) to source samples, check products, or
+            visit schools/offices for mobile accessories or training clothes.
           </p>
         </div>
         <ul className="mb-8 space-y-4">
           <li className="flex items-start">
             <CheckIcon className="mt-1 size-4" />
             <div className="ml-3 text-sm">
-              Facility, equipment, and quality audits
+              3 medium tasks/month (e.g., sample sourcing for mobile
+              accessories, quality checks for denim)
             </div>
           </li>
           <li className="flex items-start">
             <CheckIcon className="mt-1 size-4" />
             <div className="ml-3 text-sm">
-              Production capacity and compliance checks
+              1 premium school/office visit (e.g., due diligence for supplier’s
+              office)
             </div>
           </li>
           <li className="flex items-start">
             <CheckIcon className="mt-1 size-4" />
             <div className="ml-3 text-sm">
-              City guidance for sourcing (e.g., Shenzhen, Yiwu)
+              Advanced low MOQ negotiation (e.g., for laptop parts)
             </div>
           </li>
         </ul>
@@ -132,46 +133,48 @@ function StandardInspectionCard(): React.JSX.Element {
           'group mt-auto h-11 w-full rounded-xl text-sm font-medium transition-colors'
         )}
       >
-        Book Inspection
+        Start Subscription
         <ChevronRight className="ml-1 size-4 group-hover:translate-x-0.5" />
       </Link>
     </div>
   );
 }
 
-function RecurringInspectionPlanCard(): React.JSX.Element {
+function EnterprisePlanCard(): React.JSX.Element {
   return (
     <div className="relative flex h-full flex-col rounded-lg border p-8">
       <div className="relative z-10 grow">
         <div className="mb-8">
-          <h2 className="mb-2 text-xl font-medium">
-            Recurring Inspection Plan
-          </h2>
+          <h2 className="mb-2 text-xl font-medium">Enterprise Plan</h2>
           <div className="mb-2 flex items-baseline">
-            <span className="text-4xl font-bold">$1,200</span>
+            <span className="text-4xl font-bold">$999</span>
             <span className="ml-2 text-muted-foreground">/month</span>
           </div>
           <p className="text-sm text-muted-foreground">
-            Ongoing deep inspections with technical analysis, R&D insights, and
-            supply chain support.
+            Large tasks (week-long or month-long) for trade show visits or
+            supply chain management for concrete panels or laptop parts.
           </p>
         </div>
         <ul className="mb-8 space-y-4">
           <li className="flex items-start">
             <CheckIcon className="mt-1 size-4" />
             <div className="ml-3 text-sm">
-              2 deep inspections (technical, R&D, quality)
+              3 large tasks/month (e.g., Canton Fair visit for supplier
+              sourcing)
             </div>
           </li>
           <li className="flex items-start">
             <CheckIcon className="mt-1 size-4" />
             <div className="ml-3 text-sm">
-              Supply chain and environmental audits
+              Ongoing supplier management (e.g., low MOQ deals for plumbing
+              fittings)
             </div>
           </li>
           <li className="flex items-start">
             <CheckIcon className="mt-1 size-4" />
-            <div className="ml-3 text-sm">Photos, videos, detailed reports</div>
+            <div className="ml-3 text-sm">
+              Dedicated account manager & priority support
+            </div>
           </li>
         </ul>
       </div>
@@ -182,54 +185,7 @@ function RecurringInspectionPlanCard(): React.JSX.Element {
           'group mt-auto h-11 w-full rounded-xl text-sm font-medium transition-colors'
         )}
       >
-        Subscribe Now
-        <ChevronRight className="ml-1 size-4 group-hover:translate-x-0.5" />
-      </Link>
-    </div>
-  );
-}
-
-function CustomRecurringPlanCard(): React.JSX.Element {
-  return (
-    <div className="flex h-full flex-col rounded-lg border p-8">
-      <div className="relative z-10 grow">
-        <div className="mb-8">
-          <h2 className="mb-2 text-xl font-medium">Custom Recurring Plan</h2>
-          <div className="mb-2 flex items-baseline">
-            <span className="text-4xl font-bold">Contact Us</span>
-          </div>
-          <p className="text-sm text-muted-foreground">
-            Tailored subscriptions for mixed tasks, inspections, or dropshipping
-            support.
-          </p>
-        </div>
-        <ul className="mb-8 space-y-4">
-          <li className="flex items-start">
-            <CheckIcon className="mt-1 size-4 text-muted-foreground" />
-            <div className="ml-3 text-sm">
-              Custom mix of tasks and inspections
-            </div>
-          </li>
-          <li className="flex items-start">
-            <CheckIcon className="mt-1 size-4 text-muted-foreground" />
-            <div className="ml-3 text-sm">
-              Priority support and flexible scheduling
-            </div>
-          </li>
-          <li className="flex items-start">
-            <CheckIcon className="mt-1 size-4 text-muted-foreground" />
-            <div className="ml-3 text-sm">Community discounts available</div>
-          </li>
-        </ul>
-      </div>
-      <Link
-        href={Routes.Contact}
-        className={cn(
-          buttonVariants({ variant: 'outline' }),
-          'group mt-auto h-11 w-full rounded-xl text-sm font-medium shadow-none transition-colors'
-        )}
-      >
-        Get a Quote
+        Start Subscription
         <ChevronRight className="ml-1 size-4 group-hover:translate-x-0.5" />
       </Link>
     </div>
