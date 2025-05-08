@@ -32,7 +32,7 @@ function HeroPill(): React.JSX.Element {
             orientation="vertical"
             className="mx-2"
           />
-          Whatsapp +48 797264600
+          Whatsapp US
           <ChevronRightIcon className="ml-1.5 size-3 shrink-0 text-foreground transition-transform group-hover:translate-x-0.5" />
         </Badge>
       </Link>
