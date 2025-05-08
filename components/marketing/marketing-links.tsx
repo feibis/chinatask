@@ -1,10 +1,5 @@
 import * as React from 'react';
-import {
-  BookIcon,
-
-  CuboidIcon,
-
-} from 'lucide-react';
+import { BookIcon, CuboidIcon } from 'lucide-react';
 
 import {
   FacebookIcon,
@@ -16,7 +11,6 @@ import {
 import { Routes } from '@/constants/routes';
 
 export const MENU_LINKS = [
-  
   {
     title: 'Services',
     href: Routes.Careers,
@@ -31,8 +25,7 @@ export const MENU_LINKS = [
     title: 'Blog',
     href: Routes.Blog,
     external: false
-  },
-
+  }
 ];
 
 export const FOOTER_LINKS = [
@@ -41,8 +34,8 @@ export const FOOTER_LINKS = [
     links: [
       { name: 'Story', href: Routes.Story, external: false },
       { name: 'Blog', href: Routes.Blog, external: false },
-      { name: 'Careers', href: Routes.Careers, external: false }
-      { name: 'Contact', href: Routes.Contact, external: false },
+      { name: 'Careers', href: Routes.Careers, external: false },
+      { name: 'Contact', href: Routes.Contact, external: false }
     ]
   },
   {
