@@ -10,7 +10,7 @@ export type GridSectionProps = React.HtmlHTMLAttributes<HTMLDivElement> & {
 
 export function GridSection({
   children,
-  hideVerticalGridLines,
+  hideVerticalGridLines = true,
   hideBottomGridLine,
   containerProps: { className = '', ...containerProps } = {},
   ...other
