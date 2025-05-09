@@ -36,7 +36,7 @@ export function Contact(): React.JSX.Element {
               </h3>
               <p className="text-muted-foreground lg:max-w-[80%]">
                 If you have any questions, don't hesitate to contact our team.
-                We'll get back to you within 48 hours.
+                We'll get back to you within 24 hours.
               </p>
               <div className="space-y-4">
                 <h4 className="hidden text-lg font-medium lg:block">
@@ -45,15 +45,19 @@ export function Contact(): React.JSX.Element {
                 <div className="flex flex-col items-center gap-3 lg:items-start">
                   <ContactInfo
                     icon={PhoneIcon}
-                    text="(123) 34567890"
+                    text="+48 797264600(whatsapp only)"
+                  />
+                  <ContactInfo
+                    icon={PhoneIcon}
+                    text="wechat @shubeks"
                   />
                   <ContactInfo
                     icon={MailIcon}
-                    text="your-email@example.com"
+                    text="iris@chinatask.co"
                   />
                   <ContactInfo
                     icon={MapPinIcon}
-                    text="123 Main St, City, Country"
+                    text="Guangzhou, China"
                   />
                 </div>
               </div>

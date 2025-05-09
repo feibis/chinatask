@@ -15,57 +15,11 @@ export function Solution(): React.JSX.Element {
       <div className="bg-diagonal-lines">
         <div className="flex flex-col gap-24 bg-background py-20 lg:mx-12 lg:border-x">
           <div className="container relative space-y-10">
-            <div>
-              <h2 className="mb-2.5 text-3xl font-semibold md:text-5xl">
-                Project Case Study: Sourcing for UrbanNest Furniture
-              </h2>
-              <p className="mt-1 max-w-2xl text-muted-foreground md:mt-6">
-                ChinaTasks partnered with UrbanNest Furniture, a U.S.-based
-                dropshipping company, to source mid-quality furniture suppliers
-                in Foshan, compare product quality, and streamline
-                logistics—delivering measurable improvements for their
-                operations.
-              </p>
-            </div>
-            <div className="mx-auto xl:container xl:rounded-xl xl:bg-neutral-50 xl:p-6 dark:xl:bg-neutral-900">
-              <div className="grid auto-rows-[minmax(200px,auto)] grid-cols-12 gap-6">
-                <BentoCustomersCard
-                  className="col-span-12 md:col-span-6 xl:col-span-4"
-                  initial={{ opacity: 0, y: 20 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.5 }}
-                />
-                <BentoPipelinesCard
-                  className="col-span-12 md:col-span-6 xl:col-span-8"
-                  initial={{ opacity: 0, y: 20 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.5, delay: 0.2 }}
-                />
-                <BentoAnalyticsCard
-                  className="col-span-12 md:col-span-6 xl:col-span-4"
-                  initial={{ opacity: 0, y: 20 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.5, delay: 0.2 }}
-                />
-                <BentoCampaignsCard
-                  className="col-span-12 md:col-span-6 xl:col-span-4"
-                  initial={{ opacity: 0, y: 20 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.5, delay: 0.6 }}
-                />
-                <BentoMagicInboxCard
-                  className="col-span-12 md:col-span-6 xl:col-span-4"
-                  initial={{ opacity: 0, y: 20 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.5, delay: 0.8 }}
-                />
-              </div>
-            </div>
             <div className="-ml-8 w-[calc(100%+64px)] border-t border-dashed sm:-ml-20 sm:w-[calc(100%+160px)]" />
             <div className="grid gap-10 sm:container lg:grid-cols-2">
               <div className="order-1 lg:order-2">
                 <h2 className="mb-2.5 mt-8 text-3xl font-semibold md:text-5xl">
-                  Project Outcomes: Efficiency and Quality Gains
+                  Project spotlight
                 </h2>
                 <p className="mt-1 text-muted-foreground md:mt-6">
                   By leveraging strategic supplier sourcing, on-site quality
