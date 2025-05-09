@@ -16,9 +16,8 @@ export function BlogPosts(): React.JSX.Element {
     <GridSection>
       <div className="container space-y-20 py-20">
         <SiteHeading
-          badge="Blog Posts"
-          title="Insights & News"
-          description="Learn more from members of our team and industry-leading experts."
+          title="Blogs & Guides"
+          description="Learn more China business technology and more from members of our team and industry-leading experts."
         />
         <div className="grid gap-x-12 gap-y-6 divide-y md:grid-cols-2 md:gap-x-6 md:divide-none xl:grid-cols-3">
           {allPosts

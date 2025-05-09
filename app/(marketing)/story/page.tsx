@@ -1,6 +1,7 @@
 import * as React from 'react';
 import type { Metadata } from 'next';
 
+import { Solution } from '@/components/marketing/sections/solution';
 import { StoryHero } from '@/components/marketing/sections/story-hero';
 import { StoryTeam } from '@/components/marketing/sections/story-team';
 import { StoryTimeline } from '@/components/marketing/sections/story-timeline';
@@ -16,6 +17,7 @@ export default function StoryPage(): React.JSX.Element {
   return (
     <>
       <StoryHero />
+      <Solution />
       <StoryVision />
       <StoryTeam />
       <StoryTimeline />
