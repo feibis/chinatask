@@ -102,7 +102,7 @@ function HeroButtons(): React.JSX.Element {
 export function Hero(): React.JSX.Element {
   return (
     <GridSection className="overflow-x-hidden">
-      <MainDashedGridLines />
+      {/* 🔥 Removed MainDashedGridLines */}
       <div className="mx-auto mt-8 flex flex-col gap-6 px-2 pb-16 sm:mt-10 sm:px-1 md:mt-12 lg:mt-16">
         <div className="gap-2">
           <HeroPill />

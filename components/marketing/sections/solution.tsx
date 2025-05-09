@@ -8,7 +8,6 @@ import { BentoCustomersCard } from '@/components/marketing/cards/bento-customers
 import { BentoMagicInboxCard } from '@/components/marketing/cards/bento-magic-inbox-card';
 import { BentoPipelinesCard } from '@/components/marketing/cards/bento-pipelines-card';
 import { GridSection } from '@/components/marketing/fragments/grid-section';
-import { AppInfo } from '@/constants/app-info';
 
 export function Solution(): React.JSX.Element {
   return (
