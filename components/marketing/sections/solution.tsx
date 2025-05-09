@@ -8,7 +8,7 @@ export function Solution(): React.JSX.Element {
   return (
     <GridSection>
       <div>
-        <div className="flex flex-col gap-24 bg-background py-20 lg:mx-12 lg:border-x">
+        <div className="flex flex-col gap-24 bg-background">
           <div className="container relative space-y-10">
             <div className="grid gap-10 sm:container lg:grid-cols-2">
               <div className="order-1 lg:order-2">
@@ -25,10 +25,7 @@ export function Solution(): React.JSX.Element {
                   {[
                     'Sourced reliable mid-quality suppliers in Foshan',
                     'Conducted on-site product quality comparisons',
-                    'Optimized packing and shipping logistics',
-                    'Achieved 15% cost reduction per unit',
-                    'Reduced customer returns from 35% to 10%',
-                    'Improved on-time delivery to 98%'
+                    'Optimized packing and shipping logistics'
                   ].map((feature) => (
                     <li
                       key={feature}
