@@ -7,10 +7,9 @@ import { GridSection } from '@/components/marketing/fragments/grid-section';
 export function Solution(): React.JSX.Element {
   return (
     <GridSection>
-      <div className="bg-diagonal-lines">
+      <div>
         <div className="flex flex-col gap-24 bg-background py-20 lg:mx-12 lg:border-x">
           <div className="container relative space-y-10">
-            <div className="-ml-8 w-[calc(100%+64px)] border-t border-dashed sm:-ml-20 sm:w-[calc(100%+160px)]" />
             <div className="grid gap-10 sm:container lg:grid-cols-2">
               <div className="order-1 lg:order-2">
                 <h2 className="mb-2.5 mt-8 text-3xl font-semibold md:text-5xl">
