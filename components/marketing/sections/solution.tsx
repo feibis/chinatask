@@ -2,11 +2,6 @@ import * as React from 'react';
 import { CircleCheckBigIcon } from 'lucide-react';
 
 import { AiAdvisorCard } from '@/components/marketing/cards/ai-advisor-card';
-import { BentoAnalyticsCard } from '@/components/marketing/cards/bento-analytics-card';
-import { BentoCampaignsCard } from '@/components/marketing/cards/bento-campaigns-card';
-import { BentoCustomersCard } from '@/components/marketing/cards/bento-customers-card';
-import { BentoMagicInboxCard } from '@/components/marketing/cards/bento-magic-inbox-card';
-import { BentoPipelinesCard } from '@/components/marketing/cards/bento-pipelines-card';
 import { GridSection } from '@/components/marketing/fragments/grid-section';
 
 export function Solution(): React.JSX.Element {
